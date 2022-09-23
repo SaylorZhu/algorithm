@@ -1,6 +1,10 @@
 mod bubble_sort;
+mod bucket_sort;
+mod cocktail_shaker_sort;
 
 pub use bubble_sort::bubble_sort;
+pub use bucket_sort::bucket_sort;
+pub use cocktail_shaker_sort::cocktail_shaker_sort;
 
 pub fn is_sorted<T>(arr: &[T]) -> bool
 where
